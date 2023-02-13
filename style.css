@@ -1,0 +1,48 @@
+*,
+**::before,
+**::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Mulish", sans-serif;
+  height: 100%;
+}
+/* .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+} */
+
+header {
+  position: absolute;
+  padding: 1rem 1.5rem;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#0becf6, #fd21dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
